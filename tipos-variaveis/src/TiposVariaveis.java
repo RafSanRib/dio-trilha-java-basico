@@ -1,10 +1,23 @@
 public class TiposVariaveis {
     public static void main(String[] args) throws Exception {
-        double salarioMinimo = 2500;
+      
+        int numero1 = 1;
+        int numero2 = 2;
 
-        short numeroCurto = 1;
-        int numeroNormal = numeroCurto;
-        short numeroCurto2 =  (short) numeroNormal;
+        boolean simNao = numero1 == numero2;
 
+        if(numero1 == numero2){
+            System.out.println("a nossa condição é verdadeira");
+        }
+
+        System.out.println("NumeroUm é igual a numeroDois? " + simNao);
+
+        simNao = numero1 != numero2;
+
+        System.out.println("NumeroUm é igual a numeroDois? " + simNao);
+
+        simNao = numero1 > numero2;
+
+        System.out.println("NumeroUm é igual a numeroDois? " + simNao);
     }
 }
